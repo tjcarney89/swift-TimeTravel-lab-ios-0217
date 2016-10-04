@@ -98,6 +98,15 @@ If you make an attempt to fly to `neptune` and you're going `.lightSpeed` you're
 
 If you're attempting to fly to `venus` and you're moving at `lightSpeed`, you're `currentPlanet` should also become `mars` and you should return `false`.
 
+--- 
+
+## Advanced - UI
+
+Create the User Interface of this app in the `main.storyboard` file and `ViewController.swift` file. 
+
+How you design the UI is up to you. But I like the idea of there being text at the top of the screen which lets the user know what the spaceships current planet is. There should be buttons in the middle of the screen all lined up which represent the difference speeds we can set our spaceship to. Below those buttons there should be buttons representing all the different planets. When one of those planets are tapped we should determine whether or not we should be able to travel to the planet. If so, our current planet updates and you should then update the current planet label.
+
+If you want to get crazy! Based upon the weather at whatever your current planet is, you should update the background to represent what that weather might be. (Up to you!).
 
 
 
