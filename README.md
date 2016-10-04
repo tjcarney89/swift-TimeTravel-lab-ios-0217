@@ -74,9 +74,29 @@ It should have the following read-only computed property:
 
 The `init` function should take in a `name` and `planet` and assign those values to the stored properties.
 
-Create a function called `timeTravel()` which returns back a `Bool`. If the speed of the ship is travling at lightSpeed (hint: call on the camTimeTravel computed property on speed) then it should return `true`.
+Create a function called `timeTravel()` which returns back a `Bool`. If the speed of the ship is traveling at lightSpeed (hint: call on the camTimeTravel computed property on speed) then it should return `true`.
 
-Create a function called `isFaster(than:)` which takes in one argument.
+Create a function called `isFaster(than:)` which takes in one argument called `spaceShip` of type `Spaceship`. It should return back a `Bool`. If the speed of your ship is going faster than the ship passed in as an argument, it should return `true`.
+
+Create a function called `travel(to:)` which takes in one argument called `planet` of type `Planet` and it should return back a `Bool`. Depending on where you're going and at what speed determines whether or not you can travel to the planet. As well as determining whether or not you can travel to the planet, you're `currentPlanet` stored property should be set to equal the `planet` argument being passed in if you ultimately will return `true`.
+
+If you're ship is currently on `mercury` than you can't travel anywhere. You should return `false`, you're too close to the sun. Your ship is now broken.
+
+You should adhere to the following conditions, in order to travel to planet you need to be at the speed listed next to the planet:
+
+* `venus` - `.fast`
+* `earth` - `.fast`
+* `mars` - `.lightSpeed`
+* `jupiter` - `.slow`
+* `saturn` - `.medium`
+* `uranus` - `.slow`
+* `neptune` - `.fast`
+
+If you make an attempt to fly to `neptune` and you're going `.lightSpeed` you're `currentPlanet` should become `mars` and you should return `false`.
+
+If you're attempting to fly to `venus` and you're moving at `lightSpeed`, you're `currentPlanet` should also become `mars` and you should return `false`.
+
+
 
 
 <a href='https://learn.co/lessons/TimeTravelLab' data-visibility='hidden'>View this lesson on Learn.co</a>
