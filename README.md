@@ -2,31 +2,33 @@
 
 ![](http://i.imgur.com/VnpPsFO.jpg)
 
-Your mission.. should you choose to accept it is to build an iOS app that simulates space travel.
+Your mission, should you choose to accept it, is to build an iOS app that simulates space travel.
 
-These instructions won't be structured in a do this, do this next format. We're going to make this more like the realz worldz (not that show on MTV).
+These instructions won't be structured in a "do this, then this" format. We're going to make this more like the realz worldz (not that show on MTV).
 
 It's your choice how you organize your files.
 
-Create an enum called `Speed` where it's Raw Value is of type `Double`. The Various cases and their respective raw values are as follows:
+Create an enum called `Speed` where its raw value is of type `Double`. The various cases and their respective raw values are as follows:
 
 * none = 0
 * slow = 50
 * medium = 150
-* fast = 1000
-* lightSpeed = 1000000
+* fast = 1_000
+* lightSpeed = 1_000_000
 
-Create an `init` function for this `Speed` enum where the name of the first argument in the `init` function is `spaceSpeed` of type `Double`. I recommend `switch`ing on the `spaceSpeed` parameter where the various cases represent rages. Hint: We want to assign a value to `self` within these various cases (the value being an instance of the enum).
+Create an `init` function for this `Speed` enum where the name of the first argument in the `init` function is `spaceSpeed` of type `Double`. I recommend `switch`ing on the `spaceSpeed` parameter where the various cases represent ranges. 
+**Hint:** We want to assign a value to `self` within these various cases (the value being an instance of the enum).
 
-* if speed falls between 0 -> 49, it should be `.none`
-* if speed falls between 50 -> 149, `.slow`
-* if speed falls between 150 -> 999, `.medium`
-* if speed falls between 1000 -> 999999, `.fast`
-* default case should be `.lightspeed`
+* If speed is 0, the case should be `.none`
+* If speed falls between 1 -> 149, `.slow`
+* If speed falls between 150 -> 999, `.medium`
+* If speed falls between 1_000 -> 999_999, `.fast`
+* The default case should be `.lightspeed`
 
-Create a read-only computed property of type `Bool`. It returns `true` if `self` is traveling at `.lightSpeed`, every other case should return `false`.
+Create a read-only computed property of type `Bool`. It returns `true` if `self` is traveling at `.lightSpeed`. Every other case should return `false`.
 
-Create a function called `isFaster(than:)` which takes in one parameter named `speed` of type `Speed` which returns a `Bool`. It should check to see if `self` (current instance of the `Speed` enum which would be calling on this function) is faster than the `Speed` instance passed into this function as an argument. Hint: `rawValue`.
+Create a function called `isFaster(than:)` which takes in one parameter named `speed` of type `Speed` which returns a `Bool`. It should check to see if `self` (current instance of the `Speed` enum which would be calling on this function) is faster than the `Speed` instance passed into this function as an argument. 
+**Hint:** `rawValue`.
 
 ---
 
