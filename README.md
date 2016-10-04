@@ -76,7 +76,8 @@ It should have the following read-only computed property:
 
 The `init` function should take in a `name` and `planet` and assign those values to the stored properties.
 
-Create a function called `timeTravel()` which returns back a `Bool`. If the speed of the ship is traveling at lightSpeed (hint: call on the camTimeTravel computed property on speed) then it should return `true`.
+Create a function called `timeTravel()` which returns back a `Bool`. If the speed of the ship is traveling at lightSpeed then it should return `true`.
+**Hint:** Call on the canTimeTravel computed property on speed.
 
 Create a function called `isFaster(than:)` which takes in one argument called `spaceShip` of type `Spaceship`. It should return back a `Bool`. If the speed of your ship is going faster than the ship passed in as an argument, it should return `true`.
 
