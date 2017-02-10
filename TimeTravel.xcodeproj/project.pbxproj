@@ -12,6 +12,15 @@
 		5B830BA91DA43D2000BC5FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BA71DA43D2000BC5FD3 /* Main.storyboard */; };
 		5B830BAB1DA43D2000BC5FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */; };
 		5B830BAE1DA43D2000BC5FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAC1DA43D2000BC5FD3 /* LaunchScreen.storyboard */; };
+		F0A4C1711E4E368C003792AD /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4C1701E4E368C003792AD /* Speed.swift */; };
+		F0A4C1731E4E3884003792AD /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4C1721E4E3884003792AD /* Weather.swift */; };
+		F0A4C1751E4E38A6003792AD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4C1741E4E38A6003792AD /* Planet.swift */; };
+		F0A4C1771E4E3A2A003792AD /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4C1761E4E3A2A003792AD /* SpaceShip.swift */; };
+		F0A4C1791E4E76EA003792AD /* millennium-falcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0A4C1781E4E76EA003792AD /* millennium-falcon.jpeg */; };
+		F0A4C17E1E4E78DC003792AD /* cold.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A4C17A1E4E78DC003792AD /* cold.png */; };
+		F0A4C17F1E4E78DC003792AD /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A4C17B1E4E78DC003792AD /* hot.png */; };
+		F0A4C1801E4E78DC003792AD /* superduperhot.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A4C17C1E4E78DC003792AD /* superduperhot.png */; };
+		F0A4C1811E4E78DC003792AD /* warm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0A4C17D1E4E78DC003792AD /* warm.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B830BAD1DA43D2000BC5FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B830BAF1DA43D2000BC5FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A4C1701E4E368C003792AD /* Speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		F0A4C1721E4E3884003792AD /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F0A4C1741E4E38A6003792AD /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F0A4C1761E4E3A2A003792AD /* SpaceShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
+		F0A4C1781E4E76EA003792AD /* millennium-falcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "millennium-falcon.jpeg"; path = "../../../../Downloads/millennium-falcon.jpeg"; sourceTree = "<group>"; };
+		F0A4C17A1E4E78DC003792AD /* cold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cold.png; path = ../../../../Downloads/cold.png; sourceTree = "<group>"; };
+		F0A4C17B1E4E78DC003792AD /* hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hot.png; path = ../../../../Downloads/hot.png; sourceTree = "<group>"; };
+		F0A4C17C1E4E78DC003792AD /* superduperhot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = superduperhot.png; path = ../../../../Downloads/superduperhot.png; sourceTree = "<group>"; };
+		F0A4C17D1E4E78DC003792AD /* warm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = warm.jpeg; path = ../../../../Downloads/warm.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,11 @@
 		5B830B971DA43D1F00BC5FD3 = {
 			isa = PBXGroup;
 			children = (
+				F0A4C17A1E4E78DC003792AD /* cold.png */,
+				F0A4C17B1E4E78DC003792AD /* hot.png */,
+				F0A4C17C1E4E78DC003792AD /* superduperhot.png */,
+				F0A4C17D1E4E78DC003792AD /* warm.jpeg */,
+				F0A4C1781E4E76EA003792AD /* millennium-falcon.jpeg */,
 				5B830BA21DA43D1F00BC5FD3 /* TimeTravel */,
 				5B830BA11DA43D1F00BC5FD3 /* Products */,
 			);
@@ -55,6 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				5B830BA51DA43D1F00BC5FD3 /* ViewController.swift */,
+				F0A4C1701E4E368C003792AD /* Speed.swift */,
+				F0A4C1721E4E3884003792AD /* Weather.swift */,
+				F0A4C1741E4E38A6003792AD /* Planet.swift */,
+				F0A4C1761E4E3A2A003792AD /* SpaceShip.swift */,
 				5B830BB51DA43D2F00BC5FD3 /* Supporting Files */,
 			);
 			path = TimeTravel;
@@ -132,9 +159,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A4C1791E4E76EA003792AD /* millennium-falcon.jpeg in Resources */,
+				F0A4C17E1E4E78DC003792AD /* cold.png in Resources */,
 				5B830BAE1DA43D2000BC5FD3 /* LaunchScreen.storyboard in Resources */,
+				F0A4C17F1E4E78DC003792AD /* hot.png in Resources */,
+				F0A4C1811E4E78DC003792AD /* warm.jpeg in Resources */,
 				5B830BAB1DA43D2000BC5FD3 /* Assets.xcassets in Resources */,
 				5B830BA91DA43D2000BC5FD3 /* Main.storyboard in Resources */,
+				F0A4C1801E4E78DC003792AD /* superduperhot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A4C1771E4E3A2A003792AD /* SpaceShip.swift in Sources */,
+				F0A4C1731E4E3884003792AD /* Weather.swift in Sources */,
+				F0A4C1711E4E368C003792AD /* Speed.swift in Sources */,
 				5B830BA61DA43D1F00BC5FD3 /* ViewController.swift in Sources */,
 				5B830BA41DA43D1F00BC5FD3 /* AppDelegate.swift in Sources */,
+				F0A4C1751E4E38A6003792AD /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
